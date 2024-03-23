@@ -1,0 +1,27 @@
+﻿@model (int, string)
+<div class="container mt-5">
+    <h1>Створити нове замовлення для замовника: @Model.Item2</h1>
+    <form action="CreateOrder" method="POST">
+        <div class="mb-3">
+            <label for="status" class="form-label">Статус</label>
+            <select class="form-select" id="status" name="Status" required>
+                <option value="Active">Active</option>
+                <option value="Offer">Offer</option>
+                <option value="Processing">Processing</option>
+                <option value="Completed">Completed</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="priority" class="form-label">Пріорітет</label>
+            <select class="form-select" id="priority" name="Priority" required>
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+            </select>
+        </div>
+        <input id="customerId" name="CustomerId" value="@Model.Item1" type="hidden" />
+        <button type="submit" class="btn btn-primary">Створити</button>
+    </form>
+</div>
+
+

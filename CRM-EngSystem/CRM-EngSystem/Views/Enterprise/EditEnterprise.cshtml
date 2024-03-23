@@ -1,0 +1,53 @@
+﻿@using CRM_EngSystem.DTO.Enterprise
+@model EnterpriseEntityDTO
+<div class="container mt-5">
+    <h1>Редагувати підприємство</h1>
+    <form action="EditEnterprise" method="POST">
+        <div class="mb-3">
+            <label for="nameUA" class="form-label">Назва підприємства (UA)</label>
+            <input type="text" class="form-control" id="nameUA" name="NameUA" value="@Model.NameUA">
+        </div>
+        <div class="mb-3">
+            <label for="nameEN" class="form-label">Назва підприємства (EN)</label>
+            <input type="text" class="form-control" id="nameEN" name="NameEN" value="@Model.NameEN">
+        </div>
+        <div class="mb-3">
+            <label for="ownershipFormUA" class="form-label">Форма власності (UA)</label>
+            <input type="text" class="form-control" id="ownershipFormUA" name="OwnershipFormUA" value="@Model.OwnershipFormUA">
+        </div>
+        <div class="mb-3">
+            <label for="ownershipFormEN" class="form-label">Форма власності (EN)</label>
+            <input type="text" class="form-control" id="ownershipFormEN" name="OwnershipFormEN" value="@Model.OwnershipFormEN">
+        </div>
+        <div class="mb-3">
+            <label for="industryBranch" class="form-label">Сфера діяльності</label>
+            <input type="text" class="form-control" id="industryBranch" name="IndustryBranch" value="@Model.IndustryBranch">
+        </div>
+        <div class="mb-3">
+            <label for="franchise" class="form-label">Франшиза</label>
+            <input type="text" class="form-control" id="franchise" name="Franchise" value="@Model.Franchise">
+        </div>
+        <div class="mb-3">
+            <label for="country" class="form-label">Країна</label>
+            <input type="text" class="form-control" id="country" name="Country" value="@Model.Country">
+        </div>
+        <div class="mb-3">
+            <label for="city" class="form-label">Місто</label>
+            <input type="text" class="form-control" id="city" name="City" value="@Model.City">
+        </div>
+        <div class="mb-3">
+            <label for="region" class="form-label">Область</label>
+            <input type="text" class="form-control" id="region" name="Region" value="@Model.Region">
+        </div>
+        <div class="mb-3">
+            <label for="street" class="form-label">Вулиця</label>
+            <input type="text" class="form-control" id="street" name="Street" value="@Model.Street">
+        </div>
+        <div class="mb-3">
+            <label for="postalCode" class="form-label">Поштовий індекс</label>
+            <input type="text" class="form-control" id="postalCode" name="PostalCode" value="@Model.PostalCode">
+        </div>
+        <input id="enterpriseId" name="EnterpriseId" value="@Model.EnterpriseId" type="hidden" />
+        <button type="submit" class="btn btn-primary">Зберегти зміни</button>
+    </form>
+</div>

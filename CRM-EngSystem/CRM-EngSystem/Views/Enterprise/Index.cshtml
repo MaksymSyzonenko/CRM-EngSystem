@@ -1,0 +1,53 @@
+﻿@using CRM_EngSystem.DTO.Enterprise
+@model IEnumerable<EnterpriseEntityDTO>
+
+<div class="container-fluid" style="margin-top: 20px;">
+    <table class="table table-bordered table-striped">
+        <tr style="text-align: center; vertical-align: middle;">
+            <th>Назва</th>
+            <th>Форма власності</th>
+            <th>Сфера діяльності</th>
+            <th>Країна</th>
+            <th>Область</th>
+            <th>Місто</th>
+            <th>Вулиця</th>
+            <th>Поштовий індекс</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        @foreach (var enterprise in Model)
+        {
+            <tr style="text-align: center; vertical-align: middle;">
+                <td class="text-center align-middle">@enterprise.NameUA</td>
+                <td class="text-center align-middle">@enterprise.OwnershipFormUA</td>
+                <td class="text-center align-middle">@enterprise.IndustryBranch</td>
+                <td class="text-center align-middle">@enterprise.Country</td>
+                <td class="text-center align-middle">@enterprise.Region</td>
+                <td class="text-center align-middle">@enterprise.City</td>
+                <td class="text-center align-middle">@enterprise.Street</td>
+                <td class="text-center align-middle">@enterprise.PostalCode</td>
+                <td>
+                    <a href="@Url.Action("EditEnterprise", "Enterprise", new { enterpriseId = enterprise.EnterpriseId })" class="btn btn-sm btn-primary">Редаугувати</a>
+                </td>
+                <td>
+                    <a href="@Url.Action("RemoveEnterprise", "Enterprise", new { enterpriseId = enterprise.EnterpriseId })" class="btn btn-sm btn-danger">Видалити</a>
+                </td>
+                <td>
+                    <a href="@Url.Action("EnterpriseContacts", "Contact", new { enterpriseId = enterprise.EnterpriseId })" class="btn btn-sm btn-secondary">Працівники</a>
+                </td>
+                <td>
+                    <a href="@Url.Action("CreateContact", "Contact", new { enterpriseId = enterprise.EnterpriseId })" class="btn btn-sm btn-success" method="GET">Додати працівника</a>
+                </td>
+                <td>
+                    <a href="@Url.Action("CreateOrder", "Order", new { customerId = enterprise.EnterpriseId, customerName = enterprise.NameUA })" class="btn btn-sm btn-success">Додати замовлення</a>
+                </td>
+            </tr>
+        }
+    </table>
+    <div class="mb-3">
+        <a href="@Url.Action("CreateEnterprise", "Enterprise")" class="btn btn-success">Додати підприємство</a>
+    </div>
+</div>

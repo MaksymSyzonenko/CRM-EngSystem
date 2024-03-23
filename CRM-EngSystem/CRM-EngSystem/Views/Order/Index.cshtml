@@ -1,0 +1,30 @@
+﻿@using CRM_EngSystem.DTO.Order
+@model IEnumerable<OrderEntityDTO>
+
+<div class="container-fluid" style="margin-top: 20px;">
+    <table class="table table-bordered table-striped">
+        <tr style="text-align: center; vertical-align: middle;">
+            <th>Замовник</th>
+            <th>Статус</th>
+            <th>Дата створення</th>
+            <th>Пріорітет</th>
+            <th></th>
+            <th></th>
+        </tr>
+        @foreach (var order in Model)
+        {
+            <tr style="text-align: center; vertical-align: middle;">
+                <td class="text-center align-middle">@order.CustomerName</td>
+                <td class="text-center align-middle">@order.Status.ToString()</td>
+                <td class="text-center align-middle">@order.DateTimeCreate</td>
+                <td class="text-center align-middle">@order.Priority.ToString()</td>
+                <td>
+                    <a href="@Url.Action("EditOrder", "Order", new { orderId = order.OrderId })" class="btn btn-sm btn-primary">Редаугувати</a>
+                </td>
+                <td>
+                    <a href="@Url.Action("RemoveOrder", "Order", new { orderId = order.OrderId })" class="btn btn-sm btn-danger">Видалити</a>
+                </td>
+            </tr>
+        }
+    </table>
+</div>

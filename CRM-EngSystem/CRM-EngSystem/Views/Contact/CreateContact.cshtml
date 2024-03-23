@@ -1,0 +1,32 @@
+﻿@model int
+<div class="container mt-5">
+    <h1>Створити новий контакт</h1>
+    <form action="CreateContact" method="POST">
+        <div class="mb-3">
+            <label for="firstName" class="form-label">Ім'я'</label>
+            <input type="text" class="form-control" id="firstName" name="FirstName" required>
+        </div>
+        <div class="mb-3">
+            <label for="lastName" class="form-label">Прізвище</label>
+            <input type="text" class="form-control" id="lastName" name="LastName" required>
+        </div>
+        <div class="mb-3">
+            <label for="middleName" class="form-label">По батькові</label>
+            <input type="text" class="form-control" id="middleName" name="MiddleName" required>
+        </div>
+        <div class="mb-3">
+            <label for="position" class="form-label">Посада</label>
+            <input type="text" class="form-control" id="position" name="Position" required>
+        </div>
+        <div class="mb-3">
+            <label for="firstPhoneNumber" class="form-label">Номер телефону</label>
+            <input type="text" class="form-control" id="firstPhoneNumber" name="FirstPhoneNumber" required>
+        </div>
+        <div class="mb-3">
+            <label for="firstEmail" class="form-label">Електрона пошта</label>
+            <input type="email" class="form-control" id="firstEmail" name="FirstEmail" required>
+        </div>
+        <input id="enterpriseId" name="EnterpriseId" value="@Model" type="hidden"/>
+        <button type="submit" class="btn btn-primary">Створити</button>
+    </form>
+</div>

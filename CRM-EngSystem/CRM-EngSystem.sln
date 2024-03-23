@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRM-EngSystem", "CRM-EngSystem\CRM-EngSystem.csproj", "{7551872B-7E4C-4AA4-9AE5-827E75AEF643}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRM-EngSystem-PostgreSQL", "CRM-EngSystem-PostgreSQL\CRM-EngSystem-PostgreSQL.csproj", "{5003EED8-74E6-4808-8529-1A9A596CCB03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7551872B-7E4C-4AA4-9AE5-827E75AEF643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7551872B-7E4C-4AA4-9AE5-827E75AEF643}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7551872B-7E4C-4AA4-9AE5-827E75AEF643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7551872B-7E4C-4AA4-9AE5-827E75AEF643}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5003EED8-74E6-4808-8529-1A9A596CCB03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5003EED8-74E6-4808-8529-1A9A596CCB03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5003EED8-74E6-4808-8529-1A9A596CCB03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5003EED8-74E6-4808-8529-1A9A596CCB03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72A6B689-0407-44A7-B657-C88A836D7ACF}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,40 @@
+﻿@using CRM_EngSystem.DTO.Contact
+@model IEnumerable<ContactEntityDTO>
+
+@if(Model.Count() == 0)
+{
+    <p>Працівників не знайдено</p>
+}
+else
+{
+    <div class="container-fluid" style="margin-top: 20px;">
+        <table class="table table-bordered table-striped">
+            <tr style="text-align: center; vertical-align: middle;">
+                <th>Ім'я</th>
+                <th>Прізвище</th>
+                <th>По батькові</th>
+                <th>Посада</th>
+                <th>Номер телефону</th>
+                <th>Електрона адреса</th>
+                <th></th>
+            </tr>
+            @foreach (var contact in Model)
+            {
+                <tr style="text-align: center; vertical-align: middle;">
+                    <td class="text-center align-middle">@contact.FirstName</td>
+                    <td class="text-center align-middle">@contact.LastName</td>
+                    <td class="text-center align-middle">@contact.MiddleName</td>
+                    <td class="text-center align-middle">@contact.Position</td>
+                    <td class="text-center align-middle">@contact.FirstPhoneNumber</td>
+                    <td class="text-center align-middle">@contact.FirstEmail</td>
+                    <td>
+                        <a href="@Url.Action("RemoveContact", "Contact", new { contactId = contact.ContactId })" class="btn btn-sm btn-danger">Видалити</a>
+                    </td>
+                </tr>
+            }
+        </table>
+        <div class="mb-3">
+            <a href="@Url.Action("CreateContact", "Contact", new { enterpriseId = Model.First().EnterpriseId })" class="btn btn-sm btn-success" method="GET">Додати працівника</a>
+        </div>
+    </div>
+}

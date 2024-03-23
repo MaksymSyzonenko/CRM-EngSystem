@@ -1,0 +1,14 @@
+D:\На новый пк\Проэкты\Универ\CRM-EngSystem\CRM-EngSystem-PostgreSQL\bin\Debug\net7.0\CRM-EngSystem-PostgreSQL.deps.json
+D:\На новый пк\Проэкты\Универ\CRM-EngSystem\CRM-EngSystem-PostgreSQL\bin\Debug\net7.0\CRM-EngSystem-PostgreSQL.runtimeconfig.json
+D:\На новый пк\Проэкты\Универ\CRM-EngSystem\CRM-EngSystem-PostgreSQL\bin\Debug\net7.0\CRM-EngSystem-PostgreSQL.dll
+D:\На новый пк\Проэкты\Универ\CRM-EngSystem\CRM-EngSystem-PostgreSQL\bin\Debug\net7.0\CRM-EngSystem-PostgreSQL.pdb
+D:\На новый пк\Проэкты\Универ\CRM-EngSystem\CRM-EngSystem-PostgreSQL\obj\Debug\net7.0\CRM-EngSystem-PostgreSQL.csproj.AssemblyReference.cache
+D:\На новый пк\Проэкты\Универ\CRM-EngSystem\CRM-EngSystem-PostgreSQL\obj\Debug\net7.0\CRM-EngSystem-PostgreSQL.GeneratedMSBuildEditorConfig.editorconfig
+D:\На новый пк\Проэкты\Универ\CRM-EngSystem\CRM-EngSystem-PostgreSQL\obj\Debug\net7.0\CRM-EngSystem-PostgreSQL.AssemblyInfoInputs.cache
+D:\На новый пк\Проэкты\Универ\CRM-EngSystem\CRM-EngSystem-PostgreSQL\obj\Debug\net7.0\CRM-EngSystem-PostgreSQL.AssemblyInfo.cs
+D:\На новый пк\Проэкты\Универ\CRM-EngSystem\CRM-EngSystem-PostgreSQL\obj\Debug\net7.0\CRM-EngSystem-PostgreSQL.csproj.CoreCompileInputs.cache
+D:\На новый пк\Проэкты\Универ\CRM-EngSystem\CRM-EngSystem-PostgreSQL\obj\Debug\net7.0\CRM-EngSystem-PostgreSQL.dll
+D:\На новый пк\Проэкты\Универ\CRM-EngSystem\CRM-EngSystem-PostgreSQL\obj\Debug\net7.0\refint\CRM-EngSystem-PostgreSQL.dll
+D:\На новый пк\Проэкты\Универ\CRM-EngSystem\CRM-EngSystem-PostgreSQL\obj\Debug\net7.0\CRM-EngSystem-PostgreSQL.pdb
+D:\На новый пк\Проэкты\Универ\CRM-EngSystem\CRM-EngSystem-PostgreSQL\obj\Debug\net7.0\CRM-EngSystem-PostgreSQL.genruntimeconfig.cache
+D:\На новый пк\Проэкты\Универ\CRM-EngSystem\CRM-EngSystem-PostgreSQL\obj\Debug\net7.0\ref\CRM-EngSystem-PostgreSQL.dll

@@ -1,0 +1,81 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CRM_EngSystem
+build_property.RootNamespace = CRM_EngSystem
+build_property.ProjectDir = D:\На новый пк\Проэкты\Универ\CRM-EngSystem\CRM-EngSystem\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\На новый пк\Проэкты\Универ\CRM-EngSystem\CRM-EngSystem
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/На новый пк/Проэкты/Универ/CRM-EngSystem/CRM-EngSystem/Views/Contact/CreateContact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxDcmVhdGVDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/На новый пк/Проэкты/Универ/CRM-EngSystem/CRM-EngSystem/Views/Contact/EditContact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxFZGl0Q29udGFjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/На новый пк/Проэкты/Универ/CRM-EngSystem/CRM-EngSystem/Views/Contact/EnterpriseContacts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxFbnRlcnByaXNlQ29udGFjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/На новый пк/Проэкты/Универ/CRM-EngSystem/CRM-EngSystem/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/На новый пк/Проэкты/Универ/CRM-EngSystem/CRM-EngSystem/Views/Enterprise/CreateEnterprise.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50ZXJwcmlzZVxDcmVhdGVFbnRlcnByaXNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/На новый пк/Проэкты/Универ/CRM-EngSystem/CRM-EngSystem/Views/Enterprise/EditEnterprise.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50ZXJwcmlzZVxFZGl0RW50ZXJwcmlzZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/На новый пк/Проэкты/Универ/CRM-EngSystem/CRM-EngSystem/Views/Enterprise/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50ZXJwcmlzZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/На новый пк/Проэкты/Универ/CRM-EngSystem/CRM-EngSystem/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/На новый пк/Проэкты/Универ/CRM-EngSystem/CRM-EngSystem/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/На новый пк/Проэкты/Универ/CRM-EngSystem/CRM-EngSystem/Views/Order/CreateOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ3JlYXRlT3JkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/На новый пк/Проэкты/Универ/CRM-EngSystem/CRM-EngSystem/Views/Order/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/На новый пк/Проэкты/Универ/CRM-EngSystem/CRM-EngSystem/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/На новый пк/Проэкты/Универ/CRM-EngSystem/CRM-EngSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/На новый пк/Проэкты/Универ/CRM-EngSystem/CRM-EngSystem/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/На новый пк/Проэкты/Универ/CRM-EngSystem/CRM-EngSystem/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/На новый пк/Проэкты/Универ/CRM-EngSystem/CRM-EngSystem/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-gt9x2rigaa

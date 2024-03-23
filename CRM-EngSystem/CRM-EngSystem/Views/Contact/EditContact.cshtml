@@ -1,0 +1,33 @@
+﻿@using CRM_EngSystem.DTO.Contact
+@model ContactEntityDTO
+<div class="container mt-5">
+    <h1>Редагувати контакт</h1>
+    <form action="EditContact" method="POST">
+        <div class="mb-3">
+            <label for="firstName" class="form-label">Ім'я</label>
+            <input type="text" class="form-control" id="firstName" name="FirstName" value="@Model.FirstName" required>
+        </div>
+        <div class="mb-3">
+            <label for="lastName" class="form-label">Прізвище</label>
+            <input type="text" class="form-control" id="lastName" name="LastName" value="@Model.LastName" required>
+        </div>
+        <div class="mb-3">
+            <label for="middleName" class="form-label">По батькові</label>
+            <input type="text" class="form-control" id="middleName" name="MiddleName" value="@Model.MiddleName" required>
+        </div>
+        <div class="mb-3">
+            <label for="position" class="form-label">Посада</label>
+            <input type="text" class="form-control" id="position" name="Position" value="@Model.Position" required>
+        </div>
+        <div class="mb-3">
+            <label for="firstPhoneNumber" class="form-label">Номер телефону</label>
+            <input type="text" class="form-control" id="firstPhoneNumber" name="FirstPhoneNumber" value="@Model.FirstPhoneNumber" required>
+        </div>
+        <div class="mb-3">
+            <label for="firstEmail" class="form-label">Електрона пошта</label>
+            <input type="email" class="form-control" id="firstEmail" name="FirstEmail" value="@Model.FirstEmail" required>
+        </div>
+        <input id="contactId" name="ContactId" value="@Model.ContactId" type="hidden" />
+        <button type="submit" class="btn btn-primary">Зберегти зміни</button>
+    </form>
+</div>
